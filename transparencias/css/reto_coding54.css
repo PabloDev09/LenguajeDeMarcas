@@ -1,0 +1,22 @@
+div{
+    min-height: 200px;
+    border: 2px solid black;
+}
+
+#header, #page, #footer{
+    background-color: greenyellow;
+}
+
+#menu, #content{
+    display: inline-block;
+}
+
+#menu{
+    background: blue;
+    width: 30%;
+}
+
+#content{
+    background-color: lightgrey;
+    width: 70%;
+}

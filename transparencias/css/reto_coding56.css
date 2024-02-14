@@ -1,0 +1,27 @@
+@media screen and (max-width: 640px) {
+    .menu{
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1280px){
+    .menu{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .menu{
+        background-color: green;
+    }
+}
+*{
+    box-sizing: content-box;
+    margin: 0;
+}
+
+
+.menu{
+    width: 100%;
+    color: transparent;
+}
