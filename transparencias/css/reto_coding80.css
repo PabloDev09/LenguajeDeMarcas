@@ -1,0 +1,12 @@
+.parent{
+    --backgound-color: red;
+    color: white;
+}
+
+.first{
+    --background-color: lightblue;
+}
+
+.child{
+    background: var(--backgound-color, violet);
+}
