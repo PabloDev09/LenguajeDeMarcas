@@ -11,6 +11,6 @@
 }
 
 .parent{
-    animation: cambiarColor 2 infinite;
+    animation: cambiarColor 2s infinite;
     animation-delay: 1s;
 }

@@ -1,6 +1,13 @@
 .container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-areas: 
+    "header header header"
+    "navigation main ads"
+    "footer footer footer";
+
+    grid-template-rows: 100px 1fr 30px;
+    min-height: 100vh;
 }
 
 .hg_header{
